@@ -1,0 +1,49 @@
+.login{
+  height: 300px;
+   width: 300px;
+  border: 2px solid inherit;
+  border-radius: 8px;
+  margin: auto;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); ;
+  margin-top: 100px;
+  background-color: white;
+}
+.form-login input[type="text"]{
+  margin-top: 20px;
+  width: 190px;
+  align-items: center;
+  margin-left:50px;
+  padding-left: 20px;
+}
+.form-login input[type="password"]{
+  margin-top: 20px;
+  width: 190px;
+  align-items: center;
+  margin-left:50px;
+  padding-left: 20px;
+}
+.Fanews:hover{
+  cursor: pointer;
+}
+.webteam{
+  background-color:whitesmoke;
+}
+.cardteams{
+  width: 350px;
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 10px 10px;
+}
+.notfound{
+  animation-name: makedelay;
+  animation-duration: 3s;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation-iteration-count: 1;
+  color:"red";
+  font-weight: bolder;
+}
+@keyframes makedelay{
+0% {opacity:0}
+100%{opacity: 1;}
+}
+
